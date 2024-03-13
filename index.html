@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="assets/images/favicon.ico" rel="icon" />
+    <title>Documentation | ElitePOS</title>
+    <meta name="description" content="ElitePOS - Empower Your Business, Simplify Your Sales with Elite POS">
+    <meta name="author" content="dreamcoderz.com">
+
+    <!-- Stylesheet
+============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Highlight Syntax -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/color-cyan.css" />
+
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Document Wrapper
+=============================== -->
+    <div id="main-wrapper">
+
+        <!-- Header
+  ============================ -->
+        <header id="header" class="sticky-top">
+            <!-- Navbar -->
+            <nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-text-light navbar-dropdown-dark border-0">
+                <div class="container-fluid">
+                    <!-- Sidebar Toggler -->
+                    <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none"
+                        type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+
+                    <!-- Logo -->
+                    <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.jpg"
+                            alt="iDocs Template" /> </a>
+                    <span class="text-2 text-light ml-2">v1.0</span>
+                    <!-- Logo End -->
+
+                    <!-- Navbar Toggler -->
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#header-nav"><span></span><span></span><span></span></button>
+
+                    <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+
+                    </div>
+
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+        <!-- Header End -->
+
+        <!-- Content
+  ============================ -->
+        <div id="content" role="main">
+
+            <!-- Sidebar Navigation
+ ============================ -->
+            <div class="idocs-navigation bg-light">
+                <ul class="nav flex-column ">
+                    <li class="nav-item"><a class="nav-link active" href="#start">Getting Started</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#server_requirements">Server Requirements</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#installation">Installation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#wizard"> Installation Wizard</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#admin_panel">Admin Panel</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#users">Users & Roles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#units">Units</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#warehouses">Warehouses</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#brands">Brands</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sales">Sales</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pos">POS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#salesreturn">sales Return</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#purchases">Purchases</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#purchasereturn">Purchase Return</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#transfer">Stock Transfer</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#stocks">Update Stocks</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#customers">Customers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#suppliers">Suppliers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#expense">Expenses</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#reports">Reports</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#settings">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#idocs_source_credits">Source & Credits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#idocs_changelog">Changelog</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#v1-0">v1.0</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Docs Content
+ ============================ -->
+            <div class="idocs-content">
+                <div class="container">
+
+                    <!-- Getting Started
+  ============================ -->
+                    <section id="start">
+                        <h1>Documentation</h1>
+                        <h2>Empower Your Business, Simplify Your Sales with Elite POS.</h2>
+                        <p class="lead">Thank you so much for purchasing our item from codecanyon.</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><strong>Version:</strong> 1.0</li>
+                                    <li><strong>Author:</strong> <a href="https://dreamcoderz.com"
+                                            target="_blank">Dream CoderZ</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><strong class="font-weight-700">Created:</strong> 8 March, 2024</li>
+                                    <li><strong>Update:</strong> 8 March, 2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="alert alert-info">If you have any questions that are beyond the scope of this help
+                            file, Please feel free to email via <a target="_blank"
+                                href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign">Item
+                                Support Page</a>.</p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Server Requirements
+  ============================ -->
+                    <section id="server_requirements">
+                        <h2>Server Requirements</h2>
+                        <p class="lead">Before you install ElitePOS make sure your server meets the following
+                            requirements:</p>
+
+                        <ul>
+                            <li>PHP 8.1+</li>
+                            <li>MySQL 5.6+ or MariaDB 10.0+</li>
+                            <li>Intl PHP Extension</li>
+                            <li>OpenSSL PHP Extension</li>
+                            <li>PDO PHP Extension</li>
+                            <li>Mbstring PHP Extension</li>
+                            <li>Tokenizer PHP Extension</li>
+                            <li>XML PHP Extension</li>
+                            <li>Ctype PHP Extension</li>
+                            <li>Fileinfo PHP Extension</li>
+                            <li>JSON PHP Extension</li>
+                            <li>GD2 PHP Extension</li>
+                        </ul>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Installation
+  ============================ -->
+                    <section id="installation">
+                        <h2>Installation</h2>
+                        <p class="lead">Follow the steps below to setup your site template:</p>
+                        <!-- Step 1 -->
+                        <div class="mb-3">
+                            <h4>Step 1: Uploading the Software</h4>
+                            <ol>
+                                <li>Extract the ZIP File: Begin by extracting the contents of the downloaded ZIP file.
+                                </li>
+                                <li>Rename and Upload: Unzip the downloaded archive package. Rename the
+                                    <code>ElitePOS</code>
+                                    directory to your desired directory name and upload the directory to your web server
+                                    through FTP or Control Panel
+                                </li>
+                            </ol>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="mb-3">
+                            <h4>Step 2: Database Creation</h4>
+                            <ol>
+                                <li>Access Your Hosting Control Panel: Log in to your web hosting control panel.</li>
+                                <li>Create a New Database: Use the control panel or phpMyAdmin to create a new database.
+                                </li>
+                            </ol>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="mb-3">
+                            <h4>Step 3: Installation Wizard</h4>
+                            <ol>
+                                <li>Initiate the Installation: Go to your website address to start the installation
+                                    wizard.</li>
+                                <li>Follow the Installation Wizard: Complete the setup following the on-screen
+                                    instructions.</li>
+                            </ol>
+                        </div>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- HTML Structure
+  ============================ -->
+                    <section id="wizard">
+                        <h2>Run Installation Wizard</h2>
+
+                        <p class="lead">Go to your website address, then you'll see an installation wizard.</p>
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                Step 1: System Requirements Check
+                            </div>
+                            <div class="card-body">
+                                <img src="assets/images/wizard/system_requiements_check.jpg" class="img-fluid"
+                                    alt="System Requirements">
+                                <ol>
+                                    <li><strong>Review Server Requirements</strong>: The wizard will check if your
+                                        server meets the requirements for running ElitePOS.
+                                        <ul>
+                                            <li>Directories within the <code>storage</code> and the
+                                                <code>bootstrap/cache</code>
+                                                directories should be writable by your
+                                                web server or ElitePOS will not run.
+                                            </li>
+                                            <li>The list includes the required PHP version and necessary extensions like
+                                                OpenSSL, PDO, Mbstring, etc.</li>
+                                            <li>Each requirement will show an 'OK' status if met.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Troubleshoot if Needed</strong>: Resolve any issues if any requirements
+                                        are not met before proceeding.</li>
+                                    <li><strong>Confirm and Proceed</strong>: Click 'Next Step' to continue with the
+                                        installation once all checks are passed.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                Step 2: ElitePOS Setup
+                            </div>
+                            <div class="card-body">
+                                <img src="assets/images/wizard/setup.jpg" class="img-fluid" alt="Setup">
+                                <ol>
+                                    <li><strong>Enter Setup Details</strong>: On the setup screen, configure the initial
+                                        settings as follows:
+                                        <ul>
+                                            <li><strong>Select Environment</strong>: Choose 'Local' for development or
+                                                'Production' for a live site.</li>
+                                            <li><strong>App Debug Mode</strong>: Set to 'True' for development to
+                                                display errors. Set to 'False' for production.</li>
+                                            <li><strong>App Key</strong>: An encryption key is provided. Click 'Generate
+                                                New Key' to refresh it.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Proceed to Next Step</strong>: Click 'Next Step' to continue after
+                                        configuring the settings.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Database Configuration -->
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                Step 3: Database Configuration
+                            </div>
+                            <div class="card-body">
+                                <img src="assets/images/wizard/database.jpg" class="img-fluid"
+                                    alt="Database Configuration">
+                                <p>This step is crucial as it links ElitePOS with your database where all data will be
+                                    stored.</p>
+                                <ol>
+                                    <li><strong>Database Host</strong>: Typically <code>127.0.0.1</code> for local
+                                        installations, or as provided by your hosting service.</li>
+                                    <li><strong>Database Name</strong>: Enter the name of the database you've created
+                                        for ElitePOS.</li>
+                                    <li><strong>Database User</strong>: Input the username that has rights to access and
+                                        manage the database.</li>
+                                    <li><strong>Database Password</strong>: The password associated with your database
+                                        user.</li>
+                                </ol>
+                                <p>Enter the database details and press the <strong>Next Step</strong> button to connect
+                                    ElitePOS to your database.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Create Admin Credentials -->
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                Step 4: Create Admin Credentials
+                            </div>
+                            <div class="card-body">
+                                <img src="assets/images/wizard/admin.jpg" class="img-fluid"
+                                    alt="Create Admin Credentials">
+                                <p>In this stage, you will establish the administrative credentials for accessing
+                                    ElitePOS.</p>
+                                <ol>
+                                    <li><strong>Username</strong>: Enter a desired username that you will use to log in
+                                        to the ElitePOS dashboard.</li>
+                                    <li><strong>Password</strong>: Choose a secure password. Use a combination of
+                                        letters, numbers, and special characters.</li>
+                                    <li><strong>Confirm Password</strong>: Retype your password to ensure there are no
+                                        mistakes.</li>
+                                </ol>
+                                <p>Once all fields are filled, click the <strong>Complete Installation</strong> button
+                                    to finalize the ElitePOS installation process.</p>
+                            </div>
+                        </div>
+
+
+
+                    </section>
+
+
+
+
+                    <hr class="divider">
+
+                    <!-- Layout
+  ============================ -->
+                    <section id="admin_panel">
+                        <h2>Admin Panel</h2>
+                        <p class="lead mb-5">Comprehensive Guide and Practical Examples for Navigating the ElitePOS Admin Panel</p>
+                    </section>
+
+
+                    <!-- users
+  ============================ -->
+                    <section id="users">
+                        <h2>Admin Users Menu</h2>
+                        <p>Access the "Admin Users" menu from the sidebar to manage user accounts and their roles. There
+                            are two main sections under this menu:</p>
+                        <ul>
+                            <li><strong>Users</strong>: Here you can add, view, and edit user accounts.</li>
+                            <li><strong>Roles</strong>: This section allows you to create and manage the roles and
+                                permissions for users.</li>
+                        </ul>
+
+                        <img src="assets/images/admin panel/user_management.jpg" class="img-fluid" alt="">
+
+                        <h2>Managing Users</h2>
+                        <h3>Adding a New User</h3>
+                        <div class="step">
+                            <p>To add a new user to the system:</p>
+                            <ol>
+                                <li>Navigate to the <strong>Admin Users</strong> menu on the sidebar and select
+                                    <strong>Users</strong>.
+                                </li>
+                                <li>Click on the <strong>Add User</strong> button at the top right corner of the Users
+                                    List.</li>
+                                <li>Fill out the form with the new user's information.</li>
+                                <li>Once all information is filled in, click <strong>Save User</strong> to create the
+                                    new user account.</li>
+                            </ol>
+                        </div>
+                        <h3>Editing User Information</h3>
+                        <div class="step">
+                            <p>To edit an existing user's details:</p>
+                            <ol>
+                                <li>Locate the user in the Users List under the <strong>Admin Users</strong> &gt;
+                                    <strong>Users</strong> section.
+                                </li>
+                                <li>Click the edit button (usually represented by a pencil icon) next to the user's
+                                    name.</li>
+                                <li>Make the necessary changes in the user's profile.</li>
+                                <li>Click <strong>Save</strong> to update the user details.</li>
+                            </ol>
+                        </div>
+                        <img src="assets/images/admin panel/roles_permissions.jpg" class="img-fluid" alt="">
+                        <h2>Managing Roles and Permissions</h2>
+                        <h3>Viewing and Editing Roles</h3>
+                        <div class="step">
+                            <p>Roles define the permissions and access levels for different users. To manage roles:</p>
+                            <ol>
+                                <li>From the <strong>Admin Users</strong> menu, select <strong>Roles</strong>.</li>
+                                <li>You will see a list of all existing roles. To modify a role's permissions, click on
+                                    the role's name.</li>
+                                <li>Under each section (e.g., Dashboard, User Management), check the boxes next to each
+                                    permission you wish to grant to this role.</li>
+                                <li>After selecting all desired permissions, click <strong>Save</strong> to create the
+                                    new role.</li>
+                            </ol>
+                        </div>
+
+                        <h5>Tips and Best Practices</h5>
+                        <ul>
+                            <li>Always make sure that roles and permissions align with the user's job responsibilities.
+                            </li>
+                            <li>Regularly review user access levels to maintain security and operational efficiency.
+                            </li>
+                            <li>Use descriptive names and descriptions for roles to make it easier to assign and manage
+                                permissions.</li>
+                        </ul>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Dashboard
+  ============================ -->
+                    <section id="dashboard">
+                        <h1>Elite POS Dashboard Overview</h1>
+
+                        <div class="section">
+                            <h2>Introduction</h2>
+                            <p>The Dashboard is the home screen of the Elite POS system, providing a quick overview of
+                                the key metrics and activities of your business. It contains various sections that
+                                display sales and purchase figures, sales trends, top-selling products, top customers,
+                                and recent orders.</p>
+                        </div>
+
+                        <div class="section">
+                            <h2>Key Sections of the Dashboard</h2>
+
+                            <div class="chart-card">
+                                <h3>Total Sales Metrics</h3>
+                                <img src="assets/images/admin panel/dashboard1.jpg" class="img-fluid"
+                                    alt="Total Sales Metrics" />
+                                <p>Total Sales, Total Sales Return, Total Purchase, and Total Purchase Return figures
+                                    are shown here.</p>
+                            </div>
+
+                            <div class="chart-card">
+                                <h3>Sales of the Week</h3>
+                                <img src="assets/images/admin panel/dashboard1.jpg" class="img-fluid"
+                                    alt="Sales of the Week" />
+                                <p>This bar chart provides a visual comparison of sales and purchases made over the
+                                    week.</p>
+                            </div>
+
+                            <div class="chart-card">
+                                <h3>Top Selling Products</h3>
+
+                                <p>The pie chart illustrates the proportion of sales per product.</p>
+                            </div>
+
+                            <div class="chart-card">
+                                <h3>Top Customers</h3>
+                                <img src="assets/images/admin panel/dashboard2.jpg" class="img-fluid"
+                                    alt="Top Customers" />
+                                <p>This pie chart represents your top customers and the percentage of sales each
+                                    contributes to your business.</p>
+                            </div>
+
+                            <div class="chart-card">
+                                <h3>Recent Orders</h3>
+
+                                <p>A tabulated list that gives you a quick snapshot of the latest completed orders.</p>
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <h2>Navigating the Dashboard</h2>
+                            <p>Learn how to interact with the dashboard elements to get the most detailed and relevant
+                                business insights.</p>
+                        </div>
+
+                        <div class="section">
+                            <h2>Tips for Using the Dashboard</h2>
+                            <ul>
+                                <li>Start your day by checking the Dashboard to get an insight into your business's
+                                    performance.</li>
+                                <li>Use the sales trends to plan for stock replenishment and anticipate busy periods.
+                                </li>
+                                <li>Identify your best customers and products to tailor your marketing and sales
+                                    strategies.</li>
+                            </ul>
+                        </div>
+
+                        <div class="section">
+                            <h2>Conclusion</h2>
+                            <p>The Dashboard is a powerful tool that helps you stay informed about your business's
+                                performance with just a glance. By regularly checking your Dashboard, you can make
+                                data-driven decisions to improve your sales and customer relations.</p>
+                        </div>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Products
+  ============================ -->
+                    <section id="products">
+
+                        <h1>Elite POS Product Management</h1>
+
+                        <div class="section">
+                            <h2>Products List</h2>
+                            <p>View all the products in your inventory, along with details like price, cost, SKU,
+                                category, and brand. Actions such as Edit and Delete are also available for each
+                                product.</p>
+                            <img class="img-fluid" src="assets/images/admin panel/product_list.jpg"
+                                alt="Products List Screenshot" />
+                        </div>
+
+                        <div class="section">
+                            <h2>Add Product</h2>
+                            <p>To add a new product to your inventory, fill out the required fields such as product
+                                name, code, category, cost, price, and add an image. Select whether it's a standard,
+                                variable, or service product and set minimum sale quantity and stock alert level.</p>
+
+                            <img class="img-fluid" src="assets/images/admin panel/add_product.jpg"
+                                alt="Add Product Screenshot" />
+                        </div>
+
+                        <div class="section">
+                            <h2>Edit Product</h2>
+                            <p>Edit the details of an existing product. You can change any of the product's information,
+                                such as name, code, brand, price, and stock details. Save the changes to update the
+                                product information in your inventory.</p>
+                            <img class="img-fluid" src="assets/images/admin panel/edit_product.jpg"
+                                alt="Edit Product Screenshot" />
+                        </div>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Units
+  ============================ -->
+                    <section id="units">
+                        <h2>Units</h2>
+                        <p>Manage the units of measure for products. Add new units, or edit and delete existing ones.
+                        </p>
+                        <img class="img-fluid" src="assets/images/admin panel/units.jpg"
+                            alt="Units List Screenshot" />
+                        <div class="instruction">
+                            <p>To add a unit, fill in the name and short name, then click "Save". Use the search bar to
+                                find units and the edit/delete buttons to modify the list.</p>
+                        </div>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Categories
+  ============================ -->
+                    <section id="categories">
+                        <h2>Categories</h2>
+                        <p>Define and manage product categories, including nested categories with parent-child
+                            relationships.</p>
+                        <img class="img-fluid" src="assets/images/admin panel/categories.jpg"
+                            alt="Categories List Screenshot" />
+                        <div class="instruction">
+                            <p>To create a category, enter a name and select a parent category if applicable. Edit or
+                                delete categories using the actions column.</p>
+                        </div>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Warehouses
+  ============================ -->
+                    <section id="warehouses">
+                        <h2>Warehouses</h2>
+                        <p>Control your stock by managing your warehouses. Add, edit, or delete warehouse information as
+                            your logistics change.</p>
+                        <img class="img-fluid" src="assets/images/admin panel/warehouses.jpg"
+                            alt="Warehouses List Screenshot" />
+                        <div class="instruction">
+                            <p>Enter the warehouse name, address, and contact information to add a new warehouse.
+                                Maintain your warehouse records with the provided edit and delete options.</p>
+                        </div>
+
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Brands
+  ============================ -->
+                    <section id="brands">
+                        <h2>Brands</h2>
+                        <p>Keep track of all product brands. Insert a new brand, or edit and delete entries as needed.
+                        </p>
+                        <img class="img-fluid" src="assets/images/admin panel/brands.jpg"
+                            alt="Brands List Screenshot" />
+                        <div class="instruction">
+                            <p>Adding a brand is simple: just type the brand's name and optionally upload an image. You
+                                can manage the list with the edit and delete options.</p>
+                        </div>
+
+                    </section>
+
+                    <hr class="divider">
+
+
+                    <!-- Sales
+  ============================ -->
+                    <section id="sales">
+                        <h2>Add Sale</h2>
+                        <p>To record a new sale, fill in the product details, apply discounts and taxes, and capture
+                            customer information.</p>
+                        <img class="img-fluid" src="assets/images/admin panel/sale.jpg" alt="Sale Entry Form" />
+
+                        <h2>Sales List</h2>
+                        <p>Review all past sales transactions. You can filter the list, view detailed information, and
+                            perform actions such as processing returns or printing receipts.</p>
+
+                        <img class="img-fluid" src="assets/images/admin panel/sales_list.jpg" alt="Sales List" />
+                </div>
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Sales Return
+  ============================ -->
+                <section id="salesreturn">
+                    <h2>Sales Return</h2>
+                    <p>When a customer returns a product, use the Sales Return feature to record the transaction. This
+                        feature allows you to select the original sale from the sales list, specify the items being
+                        returned, and process the return accordingly. The inventory will be updated to reflect the
+                        returned items, and the customer’s balance will be adjusted, whether it’s a refund or store
+                        credit.</p>
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- POS
+  ============================ -->
+                <section id="pos">
+                    <h2>POS</h2>
+                    <h2>Point of Sale (POS)</h2>
+                    <p>The POS screen allows for efficient transaction processing. Select a customer, input the sale
+                        details, and complete transactions seamlessly.</p>
+                    <img class="img-fluid" src="assets/images/admin panel/pos.jpg" alt="POS Interface" />
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Purchases
+  ============================ -->
+                <section id="purchases">
+                    <h2>Purchase</h2>
+                    <p>The Purchase module is used to record products that your business buys from suppliers. Here, you
+                        can enter the details of the products, quantities purchased, cost prices, and related expenses.
+                        It helps in managing the stock levels and updating the inventory records. You can also track
+                        payments to suppliers and maintain a history of purchases for reference and financial
+                        accounting.</p>
+                    <img class="img-fluid" src="assets/images/admin panel/purchase.jpg" alt="Purchase">
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Purchase Return
+  ============================ -->
+                <section id="purchasereturn">
+                    <h2>Purchase Return</h2>
+                    <p>If you need to return items to a supplier, the Purchase Return functionality allows you to create
+                        a record of the return transaction. Similar to sales return, you select the original purchase
+                        entry, enter the details of the items being returned, and confirm the return. The inventory is
+                        automatically adjusted, and any changes to accounts payable or refunds received from the
+                        supplier are accurately reflected in the system.</p>
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Transfers
+  ============================ -->
+                <section id="transfer">
+                    <h2>Create Stock Transfer</h2>
+                    <p>Use this feature to transfer stock between warehouses. Select the 'From Warehouse' where the
+                        stock is currently located, and the 'To Warehouse' where the stock needs to be sent. Scan or
+                        search for the product by code or name, enter the quantity to be transferred, and submit the
+                        transfer for processing. This ensures accurate tracking and allocation of stock across your
+                        business locations.</p>
+
+                    <img class="img-fluid" src="assets/images/admin panel/stock_transfer.jpg" alt="">
+                </section>
+
+                <hr class="divider">
+
+                <!-- Stocks
+  ============================ -->
+                <section id="stocks">
+                    <h2>Update Stock</h2>
+                    <p>The Update Stock function allows you to modify the stock levels of your products. Choose the
+                        relevant warehouse and product, then specify the quantity and whether the update is an addition
+                        or subtraction to current stock levels. You can also provide a reason for the stock update,
+                        which is useful for maintaining clear records for stock adjustments, such as inventory audits or
+                        corrections.</p>
+                    <img class="img-fluid" src="assets/images/admin panel/update_stock.jpg" alt="">
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Customers
+  ============================ -->
+                <section id="customers">
+                    <h2>Customers</h2>
+                    <p>The Customers List allows you to manage your customer information. Here, you can add new
+                        customers, or edit and delete existing customer records. Each customer's contact information is
+                        stored, which can be used for sales transactions, marketing efforts, and maintaining customer
+                        relations.</p>
+                    <img class="img-fluid" src="assets/images/admin panel/customers.jpg" alt="Customers">
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Suppliers
+  ============================ -->
+                <section id="suppliers">
+                    <h2>Suppliers</h2>
+                    <p>The Suppliers List is where you can maintain data on your suppliers. This includes adding new
+                        supplier details, editing information, or removing suppliers from your list. Keeping your
+                        suppliers' information up to date is essential for inventory management and ordering new stock.
+                    </p>
+                    <img class="img-fluid" src="assets/images/admin panel/suppliers.jpg" alt="Suppliers">
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Expenses
+  ============================ -->
+                <section id="expenses">
+                    <h2>Expenses</h2>
+                    <p>In the Create Expense section, you can record and manage your business expenses. It allows you to
+                        categorize expenses, choose payment methods, and add detailed notes for accounting purposes.
+                        This feature is crucial for tracking operational costs and financial planning.</p>
+
+                    <img class="img-fluid" src="assets/images/admin panel/expenses.jpg" alt="Expenses">
+                </section>
+
+                <hr class="divider">
+
+                <!-- Reports
+  ============================ -->
+                <section id="reports">
+                    <h2>Reports</h2>
+                    <p>The Reports module provides comprehensive insights into various aspects of your business. You can
+                        generate sales reports, purchase reports, inventory reports, and financial reports, among
+                        others. These reports are crucial for analyzing business performance, making informed decisions,
+                        and strategic planning. They can be customized based on date ranges, categories, and other
+                        relevant criteria.</p>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Settings
+  ============================ -->
+                <section id="settings">
+                    <h2>Settings</h2>
+
+
+                    <div class="section">
+                        <h2>System Settings</h2>
+                        <p>System settings allow you to configure the basic and essential details of your POS system.
+                            You can set the default currency, input your company information such as the name, email,
+                            VAT, and address, and even define your default warehouse and customer settings for sales and
+                            purchases. This is the foundational setup that tailors the POS system to your business's
+                            needs.</p>
+                    </div>
+
+                    <div class="section">
+                        <h2>Module Settings</h2>
+                        <p>Module settings provide control over the activation and deactivation of various modules
+                            within your POS system. This includes enabling or disabling functionalities such as
+                            categories, warehouses, brands, stocks, units, purchases, POS, and accounting. It offers
+                            flexibility and customization based on the specific modules your business operation
+                            requires.</p>
+                    </div>
+                    <img class="img-fluid" src="assets/images/admin panel/settings.jpg" alt="">
+                    <div class="section">
+                        <h2>Currency Management</h2>
+                        <p>Managing different currencies is crucial for businesses operating in multiple countries or
+                            dealing with international clients. Currency management settings ensure that you can add and
+                            manage different currencies, set exchange rates, and make transactions in the currency
+                            preferred by your business or your customers.</p>
+                    </div>
+
+
+                </section>
+
+
+
+                <hr class="divider">
+
+
+
+                <!-- Source & Credits
+  ============================ -->
+                <section id="idocs_source_credits">
+                    <h2>Source & Credits</h2>
+                    <h4>Backend :</h4>
+                    <ul>
+                        <li>Laravel & Livewire Freameworks - <a target="_blank"
+                                href="https://laravel.com/">https://laravel.com/</a>
+                        </li>
+                    </ul>
+                    <h4>Themes:</h4>
+                    <ul>
+                        <li>Sleek - Bootstrap Dashboard- <a target="_blank"
+                                href="https://themefisher.com/">https://themefisher.com/</a></li>
+
+                        <li>Documentation -   <a href="https://github.com/harnishdesign/iDocs" target="_blank" rel="noopener noreferrer">IDocs</a></li>
+                    </ul>
+                    <h4>Scripts:</h4>
+                    <ul>
+                        <li>jQuery - <a target="_blank" href="http://www.jquery.com/">http://www.jquery.com/</a>
+                        </li>
+                        <li>Bootstrap 4 - <a target="_blank"
+                                href="http://getbootstrap.com/">http://getbootstrap.com/</a></li>
+                    </ul>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Support
+  ============================ -->
+                <section id="idocs_support">
+                    <h2>Support</h2>
+                    <p>If this documentation doesn't answer your questions, So, Please send us Email via <a
+                            class="btn btn-primary" target="_blank"
+                            href="#">Item Support Page</a></p>
+                    <p> We are located in GMT +5:30 time zone and we answer all questions within 12-24 hours in
+                        weekdays. In some rare cases the waiting time can be to 48 hours. (except holiday seasons
+                        which might take longer).</p>
+               
+                    <h4>Don’t forget to Rate this template
+                        <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                            class="fas fa-star text-warning"></i>
+                    </h4>
+                    <div class="alert alert-success">
+                        Please Add your Review (Opinion) for Our template. It would be a great support for us.<br>
+                        
+                        You can Rate & Review for our software.<br>
+                        Thank You.
+                    </div>
+                </section>
+
+
+
+                <hr class="divider">
+
+                <!-- Changelog
+  ============================ -->
+
+                <section id="idocs_changelog">
+                    <h2>Changelog</h2>
+
+
+                    <hr class="divider">
+
+                    <h3 id="v1-0">Version 1.0 <small class="text-muted">(8 March, 2024)</small></h3>
+                    <p>Initial Release</p>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+  ============================ -->
+    <footer id="footer" class="section bg-light">
+        <div class="container">
+           
+            <p class="text-center">Copyright &copy; 2024 <a
+                    href="https://dreamcoderz.com/">ElitePOS</a>. All
+                Rights Reserved.</p>
+            <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank"
+                    href="https://dreamcoderz.com/">Dream CoderZ</a>.</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    </div>
+    <!-- Document Wrapper end -->
+
+    <!-- Back To Top -->
+    <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+            class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript
+============================ -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
